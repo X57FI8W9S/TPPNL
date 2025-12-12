@@ -13,15 +13,15 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 **Notebook:** `Desafio_1.ipynb`
 
-**Trabajo realizado**
+**Procedimiento**
 
 - Limpieza y vectorización de documentos con **TF-IDF**.
 - Exploración de **similitud entre documentos**: selección de 5 documentos aleatorios y análisis de sus vecinos más cercanos según distancia coseno.
-- Implementación de un clasificador **1-NN / prototípico** basado en TF-IDF como línea base.
+- Clasificador **1-NN / prototípico** basado en TF-IDF como línea base.
 - Entrenamiento y ajuste de **Naïve Bayes Multinomial** y **ComplementNB**.
 - Obtención de **embeddings de palabras basados en TF-IDF** (trasponiendo la matriz) y estudio de vecinos semánticos.
 
-**Habilidades practicadas**
+**Técnicas utilizadas**
 
 - Pipeline clásico de NLP.
 - Similaridad semántica y recuperación de documentos.
@@ -32,11 +32,12 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 ## Desafío 2 – Word2Vec entrenado sobre letras de Nirvana
 
 ![Desafío 2](imagenes/TP2.jpeg)
+
 **Objetivo.** Entrenar desde cero embeddings tipo **Word2Vec (Skip-gram)** usando letras de canciones de **Nirvana** y analizar la semántica aprendida.
 
 **Notebook:** `Desafio_2.ipynb`
 
-**Trabajo realizado**
+**Procedimiento**
 
 - Construcción del corpus a partir de `songs_dataset/nirvana.txt`.
 - Tokenización de cada línea en secuencias.
@@ -44,7 +45,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 - Exploración de palabras similares y disímiles para términos clave.
 - Reducción de dimensionalidad con **t-SNE** para visualizar clusters semánticos.
 
-**Habilidades practicadas**
+**Técnicas utilizadas**
 
 - Entrenamiento de **embeddings distribuidos**.
 - Uso de métricas de similitud coseno.
@@ -60,7 +61,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 **Notebook:** `Desafio_3.ipynb`
 
-**Trabajo realizado**
+**Procedimiento**
 
 - Descarga y parsing del texto usando **BeautifulSoup + lxml**, normalizando minúsculas y removiendo artefactos como `\xad`.
 - Construcción del vocabulario de caracteres y dataset supervisado many-to-many con secuencias desplazadas.
@@ -71,11 +72,6 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 - Implementación de un callback personalizado para calcular **perplejidad** en validación, guardar el mejor modelo y cortar el entrenamiento si deja de mejorar.
 - Generación de texto usando *greedy decoding* y *beam search* con distintos *temperatures*.
 
-**Habilidades practicadas**
-
-- Preprocesamiento avanzado para modelos secuenciales.
-- Implementación de métricas personalizadas (perplejidad).
-- Construcción y evaluación de **modelos generativos**.
 
 ---
 
