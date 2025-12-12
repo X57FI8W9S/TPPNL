@@ -7,7 +7,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 ## Desafío 1 – Clasificación de Texto (20 Newsgroups)
 
 
-<!-- ![Desafío 1](images/desafio1.png) -->
+![Desafío 1](imagenes/TP1.png)
 
 **Objetivo.** Construir y analizar un clasificador de noticias utilizando el dataset **20 Newsgroups**, empleando TF-IDF y modelos Naïve Bayes, además de explorar similitudes entre documentos.  
 
@@ -31,8 +31,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 ## Desafío 2 – Word2Vec entrenado sobre letras de Nirvana
 
-<!-- ![Desafío 2](images/desafio2.png) -->
-
+![Desafío 2](imagenes/TP2.jpg)
 **Objetivo.** Entrenar desde cero embeddings tipo **Word2Vec (Skip-gram)** usando letras de canciones de **Nirvana** y analizar la semántica aprendida.
 
 **Notebook:** `Desafio_2.ipynb`
@@ -55,7 +54,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 ## Desafío 3 – Modelo de Lenguaje a Nivel Carácter (SimpleRNN)
 
-<!-- ![Desafío 3](images/desafio3.png) -->
+![Desafío 3](imagenes/TP3.png)
 
 **Objetivo.** Implementar un **modelo de lenguaje carácter-a-carácter** entrenado sobre *Así habló Zaratustra* (Nietzsche), evaluado mediante **perplejidad** y generación de texto.
 
