@@ -31,7 +31,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 ## Desafío 2 – Word2Vec entrenado sobre letras de Nirvana
 
-![Desafío 2](imagenes/TP2.jpg)
+![Desafío 2](imagenes/TP2.jpeg)
 **Objetivo.** Entrenar desde cero embeddings tipo **Word2Vec (Skip-gram)** usando letras de canciones de **Nirvana** y analizar la semántica aprendida.
 
 **Notebook:** `Desafio_2.ipynb`
