@@ -82,7 +82,7 @@ Este repositorio reúne el desarrollo de cuatro desafíos prácticos de Procesam
 
 ## Desafío 4 – Traductor Seq2Seq LSTM (Inglés → Español)
 
-<!-- ![Desafío 4](imagenes/TP4.png) -->
+![Desafío 4](imagenes/TP4.png)
 
 **Objetivo.** Construir un traductor **encoder–decoder LSTM** para traducir oraciones cortas del inglés al español utilizando el corpus paralelo **Tatoeba** y embeddings preentrenados **GloVe**.
 
